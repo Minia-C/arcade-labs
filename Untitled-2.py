@@ -5,44 +5,64 @@ language and the Arcade library.
 
 # Import the "arcade" library
 import arcade
+for i in [0,13]:
 
-# Open up a window.
-# From the "arcade" library, use a function called "open_window"
-# Set the window title to "Drawing Example"
-# Set the and dimensions (width and height)
-arcade.open_window(900, 600, "Drawing Example")
-SCREEN_WIDTH = 900
-SCREEN_HEIGHT = 600
-# Set the background color
 
-def __initial__():
- super().__init__(900, 600, "Drawing Example")
- arcade.set_background_color(arcade.color.BABY_BLUE)
- arcade.start_render()
- arcade.draw_rect_filled(arcade.XYWH(450, 390, 100, 120),arcade.color.CHINA_ROSE)
- arcade.draw_circle_filled(450, 500, 60, arcade.color.BANANA_YELLOW)
- arcade.draw_circle_filled(430, 500, 10, arcade.color.BLACK)
- arcade.draw_circle_filled(470, 500, 10, arcade.color.BLACK)
- arcade.draw_rect_filled(arcade.XYWH(425, 280, 40, 120),arcade.color.CHINA_ROSE)
- arcade.draw_rect_filled(arcade.XYWH(475, 280, 40, 120),arcade.color.CHINA_ROSE)
- arcade.draw_rect_filled(arcade.XYWH(425, 200, 45, 40),arcade.color.BLACK)
- arcade.draw_rect_filled(arcade.XYWH(475, 200, 45, 40),arcade.color.BLACK)
- arcade.finish_render()
-arcade.run()
-def on_draw(self):
- self.clear()
- super().__init__(900, 600, "Drawing Example")
- arcade.set_background_color(arcade.color.BABY_BLUE)
- arcade.start_render()
- arcade.draw_rect_filled(arcade.XYWH(450, 390, 100, 120),arcade.color.CHINA_ROSE)
- arcade.draw_circle_filled(450, 500, 60, arcade.color.BANANA_YELLOW)
- arcade.draw_circle_filled(450, 500, 10, arcade.color.BLACK)
- arcade.draw_rect_filled(arcade.XYWH(450, 280, 40, 120),arcade.color.CHINA_ROSE)
- arcade.draw_rect_filled(arcade.XYWH(475, 200, 45, 40),arcade.color.BLACK)
- arcade.finish_render()
-arcade.run()
-if __name__ == "__initial__":
-    juego = ()
+ if i==0 or 4 or 8 or 12:
+  arcade.open_window(900, 600, "Drawing Example")
+  arcade.set_background_color(arcade.color.BABY_BLUE)
+  arcade.start_render()
+  arcade.draw_rect_filled(arcade.XYWH(450, 390, 100, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_circle_filled(450, 500, 60, arcade.color.BANANA_YELLOW)
+  arcade.draw_circle_filled(430, 500, 10, arcade.color.BLACK)
+  arcade.draw_circle_filled(470, 500, 10, arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(425, 280, 40, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_rect_filled(arcade.XYWH(475, 280, 40, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_rect_filled(arcade.XYWH(425, 200, 45, 40),arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(475, 200, 45, 40),arcade.color.BLACK)
+  arcade.finish_render()
+  arcade.run()
+
+
+
+ if i== 1 or 5 or 9:
+  set.clear
+  arcade.open_window(900, 600, "Drawing Example")
+  arcade.set_background_color(arcade.color.BABY_BLUE)
+  arcade.start_render()
+  arcade.draw_rect_filled(arcade.XYWH(450, 390, 100, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_circle_filled(450, 500, 60, arcade.color.BANANA_YELLOW)
+  arcade.draw_circle_filled(470, 500, 10, arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(450, 280, 40, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_rect_filled(arcade.XYWH(450, 200, 45, 40),arcade.color.BLACK)
+  arcade.finish_render()
+  arcade.run()
+ if i== 2 or 6 or 10:
+  set.clear
+  arcade.open_window(900, 600, "Drawing Example")
+  arcade.set_background_color(arcade.color.BABY_BLUE)
+  arcade.start_render()
+  arcade.draw_rect_filled(arcade.XYWH(450, 390, 100, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_circle_filled(450, 500, 60, arcade.color.BANANA_YELLOW)
+  arcade.draw_rect_filled(arcade.XYWH(425, 200, 45, 40),arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(475, 200, 45, 40),arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(425, 280, 40, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_rect_filled(arcade.XYWH(475, 280, 40, 120),arcade.color.CHINA_ROSE)
+  arcade.finish_render()
+  arcade.run()
+ if i== 3 or 7 or 11:
+  set.clear
+  arcade.open_window(900, 600, "Drawing Example")
+  arcade.set_background_color(arcade.color.BABY_BLUE)
+  arcade.start_render()
+  arcade.draw_rect_filled(arcade.XYWH(450, 390, 100, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_circle_filled(450, 500, 60, arcade.color.BANANA_YELLOW)
+  arcade.draw_circle_filled(430, 500, 10, arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(450, 200, 45, 40),arcade.color.BLACK)
+  arcade.draw_rect_filled(arcade.XYWH(450, 280, 40, 120),arcade.color.CHINA_ROSE)
+  arcade.draw_rect_filled(arcade.XYWH(450, 200, 45, 40),arcade.color.BLACK)
+  arcade.finish_render()
+  arcade.run()
 
 
 
